@@ -1,0 +1,6 @@
+This is React Hook learning project implemented by VinhTran!
+How it works is based on the file numbered below and you must change link of the "App" component in index.js file to run each example.
+1. useRef (app.js)
+2. useEffect
+     2.1 App.js ( learn lifecycle of useEffect)
+     2.2 Example2.js ()

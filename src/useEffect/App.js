@@ -47,3 +47,8 @@ function App() {
     </div>);
 }
 export default App;
+
+// 1. if the second params of useEffect() is empty array '[]' then useEffect will run like componentDidMount()
+// 2. Don't type the second params of useEffect.  It will run when the component changes.
+// 3. return function in useEffect will run before component unmount 
+// 4. if the second params of useEffect() like '[componentA]' then useEffect will run when this componentA change
