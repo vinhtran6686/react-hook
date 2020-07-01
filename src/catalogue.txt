@@ -3,4 +3,7 @@ How it works is based on the file numbered below and you must change link of the
 1. useRef (app.js)
 2. useEffect
      2.1 App.js ( learn lifecycle of useEffect)
-     2.2 Example2.js ()
+     2.2 Example2.js (get API with async await)
+     2.3 Example3.js (callback & callback hell)
+     2.4 Example4.js (promise & promise hell)
+     2.5 Example5.js (Async await)
