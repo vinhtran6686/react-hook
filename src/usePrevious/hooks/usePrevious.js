@@ -7,7 +7,7 @@ function usePrevious(value) {
       ref.current = value;
 	});
 
-	// useDebugValue(ref.current > 18 ? "too much" : "too little");
+	useDebugValue(ref.current > 18 ? "too much" : "too little");
    
 	return ref.current;
 }

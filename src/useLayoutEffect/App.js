@@ -34,3 +34,16 @@ function App() {
 }
 
 export default App;
+
+
+// flow working of useLayoutEffect 
+// 1. Khi kích hoạt 1 event render (for example: 'button click')
+// 2. React render component 
+// 3. UseLayoutEffect chạy, react đợi nó finish 
+// 4. update UI 
+
+// flow working of useEffect 
+// 1. Khi kích hoạt 1 event render (for example: 'button click')
+// 2. React render component 
+// 3. update UI 
+// 4. UseEffect chạy cuối cùng 
